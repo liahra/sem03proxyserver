@@ -27,7 +27,7 @@ func main() {
 				defer client.Close()
 				log.Println("Connected to proxy")
 
-				server, err := net.Dial("tcp", "172.17.0.3:45393")
+				server, err := net.Dial("tcp", "172.17.0.3:42039")
                 if err != nil {
 					log.Println(err)
 					return
